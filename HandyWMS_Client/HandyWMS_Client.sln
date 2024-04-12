@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandyWMS_Client", "HandyWMS_Client.csproj", "{7839DD6A-126C-4671-B970-FC06A9D368DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7839DD6A-126C-4671-B970-FC06A9D368DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7839DD6A-126C-4671-B970-FC06A9D368DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7839DD6A-126C-4671-B970-FC06A9D368DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7839DD6A-126C-4671-B970-FC06A9D368DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F2DD4E0-84D6-49A3-8590-6E47610F7CD8}
+	EndGlobalSection
+EndGlobal
