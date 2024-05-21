@@ -1,0 +1,13 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/HandyWMS_ClassLibrary/bin/Debug/net8.0
+/.vs
+/HandyWMS_ClassLibrary/obj
+/HandyWMS_Client/.vs
+/HandyWMS_Client/bin/Debug/net8.0-windows
+/HandyWMS_Client/obj
+/HandyWMS_Server/bin/Debug/net8.0
+/HandyWMS_Server/Logs
+/HandyWMS_Server/obj

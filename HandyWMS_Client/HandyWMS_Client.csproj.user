@@ -22,7 +22,7 @@
     <Compile Update="Pages\SystemManagement\User\UserManagementPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Pages\SystemManagement\User\UserSettingPage.xaml.xaml.cs">
+    <Compile Update="Pages\SystemManagement\User\UserSettingPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -45,7 +45,7 @@
     <Page Update="Pages\SystemManagement\User\UserManagementPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pages\SystemManagement\User\UserSettingPage.xaml.xaml">
+    <Page Update="Pages\SystemManagement\User\UserSettingPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Resources\Themes\IconDictionary.xaml">

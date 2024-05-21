@@ -1,0 +1,6 @@
+@HandyWMS_Server_HostAddress = http://localhost:5232
+
+GET {{HandyWMS_Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

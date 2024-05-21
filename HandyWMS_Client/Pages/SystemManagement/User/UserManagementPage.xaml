@@ -107,8 +107,31 @@
                 </DataGrid.RowHeaderTemplate>
             </DataGrid>
         </Grid>
-        <hc:Pagination Grid.Row="2" x:Name="Pagination_User"
-                           MaxPageCount="10" PageIndex="5" IsJumpEnabled="True"
-                           AutomationProperties.Name="Pagination_User" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <TextBlock Text="每页" VerticalAlignment="Center" Margin="10,0,10,0" />
+            <ComboBox Style="{StaticResource ComboBox.Small}" x:Name="ComboBox_PageSize"
+                      Width="70" AutomationProperties.Name="ComboBox_PageSize"
+                      SelectionChanged="ComboBox_PageSize_SelectionChanged">
+                <ComboBoxItem Content="10"/>
+                <ComboBoxItem Content="20"/>
+                <ComboBoxItem Content="50" IsSelected="True"/>
+                <ComboBoxItem Content="100"/>
+                <ComboBoxItem Content="200"/>
+                <ComboBoxItem Content="500"/>
+                <ComboBoxItem Content="1000"/>
+            </ComboBox>
+            <TextBlock Text="条" VerticalAlignment="Center" Margin="10,0,10,0"></TextBlock>
+            <hc:Pagination x:Name="Pagination_User" PageIndex="1" MaxPageCount="10"
+                           IsJumpEnabled="True" PageUpdated="Pagination_User_PageUpdated"
+                           AutomationProperties.Name="Pagination_User" HorizontalAlignment="Right"
+                           VerticalAlignment="Center" Margin="0,0,10,0"/>
+        </StackPanel>
+        <hc:Drawer Name="Drawer_Detail"
+                   ShowMask="True"
+                   Dock="Right"
+                   Closed="Drawer_Detail_Closed" Opened="Drawer_Detail_Opened">
+            <Frame Name="Frame_Detail"
+                   NavigationUIVisibility="Hidden"></Frame>
+        </hc:Drawer>
     </Grid>
 </Page>
